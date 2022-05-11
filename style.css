@@ -1,5 +1,14 @@
 body {   background-color: #1D3557; } 
+
 h1 {   color: #E63946; } 
+
 ul {   list-style-type: disc;   
     color: #A8DADC; } 
+
 ol {   color: #F1FAEE; } 
+
+.non_sporting {   background-color: #45789D;   } 
+
+#Canaan {   
+    color: #1D3557;   
+    background-color: #F1FAEE;   } 
