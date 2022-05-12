@@ -1,15 +1,37 @@
-body {   background-color: #1D3557; } 
+body {   
+    background-color: #475C7A; } 
 
-h1 {   color: #E63946; } 
+h1 {   
+    color: #fcbb6d;
+    background-color: #685D79;
+ } 
+ul {
+    list-style-type: none;
+}
+ol{
+    background-color: #D8737f;
+    color: #f1faee;
+    font-weight: bold;
+}
+ul li::before{
+    content: "\2022";
+    color: #fcbb6d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left:-2em;
+}
 
-ul {   list-style-type: disc;   
-    color: #A8DADC; } 
-
-ol {   color: #F1FAEE; } 
-
-.non_sporting {   background-color: #45789D;   } 
-
-#Canaan {   
-    color: #1D3557;   
-    background-color: #F1FAEE;   } 
-    background-color: #F1FAEE;   } 
+ol>li:nth-child(4n+1){
+    background-color: #ab6c82;
+}
+ol>li:nth-chid(4n+3){
+    background-color: #685D79;
+}
+ul:nth-child(4n+2){
+    background-color: #ab6c82;
+}
+ul:nth-child(4n+4){
+    background-color: #685D79;
+}
+    
